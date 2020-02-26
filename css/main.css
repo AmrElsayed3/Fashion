@@ -1,0 +1,312 @@
+body{
+    padding-top: 70px;
+    background-color: #EEE;
+    font-family: "Arial,Tahoma";
+}
+/*main navbar*/
+.navbar{
+    min-height: 70px
+}
+.navbar-inverse{
+    background-color: #650971;
+    border-color: #650971
+}
+
+/*active link*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #c514a9;
+}
+
+/*link*/
+.navbar-inverse .navbar-nav > li > a{
+    color: #d8cfcf;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px
+}
+
+/*Brand Name*/
+.navbar-inverse .navbar-brand{
+    color: #d8cfcf;
+    font-size: 30px;
+    line-height: 35px
+}
+
+.navbar-toggle{
+    margin-top: 17px
+}
+
+/*dropdown*/
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color:#c514a9 ;
+}
+.dropdown-menu{
+    background-color: #650971; 
+    min-width: 200px
+}
+
+.dropdown-menu > li > a {
+    color:#d8cfcf;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+.dropdown-menu > li > a:hover{
+    background-color:#c514a9 ;
+    color:#FFF;
+    padding-left: 25px;
+}
+.dropdown-menu .divider{
+    background-color: #c62dfb;
+}
+.navbar-right .dropdown-menu{
+    right: auto;
+    left: 0
+}
+
+/*Start Section About Us*/
+.about-us{
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.about-us h2{
+    color:#444;
+    font-weight: bold;
+    margin-bottom: 20px
+}
+.about-us h2 span{
+    color:#c514a9
+}
+.about-us .team{
+    margin: 30px auto;
+}
+.about-us .lead{
+    color:#444;
+    line-height: 1.8
+}
+
+
+
+/*Start Section company*/
+
+.company{
+    background: url('../images/003.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+.company .overlay{
+    background-color: rgba(0,0,0,.5);
+    min-height:300px;
+    color:#FFF;
+    overflow: hidden
+}
+
+.company .our-company p{
+    line-height: 1.9;
+    font-size:15px;
+    margin-top: 15px;
+    margin-bottom: 40px
+}
+.company .our-company h2{font-family: monospace}
+.company .our-company i{
+    margin-top: 35px;
+    color:#d8cfcf
+}
+
+/*Start section Mission*/
+
+.mission{
+    background: url('../images/0020.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 300px
+}
+.mission .overlay{
+    background-color: rgba(0,0,0,.5);
+    min-height:300px;
+    color:#FFF;
+    overflow: hidden
+}
+
+.mission .mission-over{
+    background-color: rgba(0,0,0,.5);
+    min-height:300px;
+    color:#FFF;
+    margin-bottom: 40px;
+    margin-top: 40px
+}
+.mission .our-mission h3{
+    padding-top: 25px;
+}
+.mission .our-mission p{
+    padding: 25px;
+    line-height: 1.9;
+    font-size:18px
+}
+.mission .our-mission a{
+    margin-bottom: 30px
+}
+
+/*Start Our Price*/
+
+.prices{
+    background-color:#EEE;
+    margin-top:100px;
+    margin-bottom: 100px
+}
+
+.prices .our-price{
+    background-color: #FFF;
+    padding:25px 15px 30px;
+    margin-top: 40px
+}
+.prices .our-price h3{
+    margin-bottom: 30px;
+    font-weight: bold
+}
+.prices .our-price p{
+    font-size:25px;
+    font-weight: bold;
+    color:#666;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #EEE;
+    line-height: 110px;
+    -webkit-transition-duration:.7s; 
+    -moz-transition-duration:.7s; 
+    -o-transition-duration:.7s; 
+    transition-duration:.7s;
+    border: 2px solid #FFF;
+}
+.prices .our-price:hover p{
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    border:2px solid #DFDFDF 
+}
+.prices .our-price ul{
+    line-height: 250%;
+    font-size: 18px
+}
+/*Start Our Gallery*/
+.gallery .h1{
+    margin-bottom: 30px
+}
+.gallery h3{
+    margin-top: 20px;
+    letter-spacing:2px
+}
+
+.gallery .lead{
+    color:#888;
+    margin-bottom: 15px;
+    
+}
+.gallery a{
+    margin-bottom: 13px
+    
+}
+.gallery .btn-info{
+    background-color:#c514a9;
+    border-color: #c514a9;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+.gallery .btn-info:hover{
+    background-color:#f368e0;
+    border-color: #f368e0
+}
+
+.gallery img{
+    opacity: .7;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+
+    
+}
+.gallery img:hover{opacity: 1}
+
+.gallery .btn-danger,.gallery .btn-primary{
+    margin-top: 40px;
+    width: 300px;
+    padding: 10px;
+    font-size: 18px
+}
+/*Start Contact Us*/
+.contact-us{
+    background: url('../images/0052.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 300px
+}
+.contact-us .overlay{
+    background-color: rgba(0,0,0,.6);
+    min-height:300px;
+    color:#FFF;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+.contact-us p{
+    margin-bottom: 40px;
+}
+.contact-us form textarea{
+    height: 106px
+}
+
+.contact-us .btn-info{
+    background-color: #c514a9;
+    border-color: #c514a9;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+.contact-us .btn-info:hover{
+    background-color:#f368e0;
+    border-color: #f368e0
+}
+.contact-us input[type="text"],
+.contact-us textarea{
+    background: rgba(82,78,78,.7);
+    color:#FFF;
+    border: none
+}
+
+/*Start Footer*/
+.footer{
+    background-color: rgba(0,0,0,.7);
+    color:#FFF;
+    padding: 5px;
+}
+.footer p{margin-top: 15px}
+.footer span{
+    color:#f368e0;
+}
+.footer span:hover{
+    cursor: pointer;
+    color:#ff9ff3
+}
